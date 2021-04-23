@@ -1,0 +1,72 @@
+/* 21661119 조소영 */
+
+@import url('https://fonts.googleapis.com/css2?family=Nixie+One&family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+}
+body{
+  font-family: 'Noto Sans KR', sans-serif;
+  background-image: url('./img/f1.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #f9ff81;
+}
+.container {
+  min-width:700px;
+  width: 100%;
+  margin: 0 auto; /*가운데 정렬*/
+  box sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+header {
+  font-family: 'Nixie One', cursive;
+  display: flex;
+  justify-content: space-between; /*양쪽으로 찢기*/
+  width: 95%;
+  align-items: center; /*로고와 메뉴 수평정렬*/
+  padding: 20px;
+}
+header ul {
+  display: flex;
+}
+header ul li {
+  list-style-type: none;
+  margin: 15px;
+}
+header ul li a {
+  color: #f9ff81;
+}
+header ul li a:link {
+  text-decoration: none;
+}
+header ul li a:hover {
+  font-weight: bold;
+}
+section {
+  text-align:center;
+}
+section p {
+  margin-bottom: 0.8rem;
+  font-weight: 100;
+}
+section p:first-child {
+  font-size: 2rem;
+  font-weight: 600;
+  text-align:center;
+}
+footer {
+  font-family: 'Nixie One', cursive;
+  font-size: 0.6rem;
+  color: #f9ff81;
+  margin: 2rem;
+}
+footer a{
+  font-family: 'Nixie One', cursive;
+  color: #f9ff81;
+  text-decoration: none;
+}
